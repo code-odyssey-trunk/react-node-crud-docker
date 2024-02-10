@@ -1,4 +1,5 @@
-FROM node:14
+FROM node:lts
+
 # Create app directory
 WORKDIR /opt/src/app
 # Install app dependencies
